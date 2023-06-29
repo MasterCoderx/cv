@@ -4,3 +4,12 @@ body {
 .name {
     text-transform: uppercase;
 }
+.columns-wrapper {
+    display: flex;
+}
+.sidebar {
+    width: 30%;
+}
+.main-column {
+    width: 70%;
+}
