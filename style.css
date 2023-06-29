@@ -1,8 +1,15 @@
+* {
+    margin: 0;
+}
 body {
     font-family: "Roboto",sans-serif;
 }
+.wrapper {
+    margin: 15px;
+}
 .name {
     text-transform: uppercase;
+    margin-bottom: 10px;
 }
 .columns-wrapper {
     display: flex;
