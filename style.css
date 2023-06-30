@@ -10,6 +10,7 @@ body {
 .name {
     text-transform: uppercase;
     margin-bottom: 10px;
+    width: 30%;
 }
 .columns-wrapper {
     display: flex;
@@ -19,4 +20,15 @@ body {
 }
 .main-column {
     width: 70%;
+}
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.header-left {
+    width: 30%;
+}
+.photo{
+    width: 30%;
 }
