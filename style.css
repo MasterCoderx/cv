@@ -44,7 +44,8 @@ body {
     justify-content: flex-end;
 }
 .contact-details {
-
+    display: flex;
+    flex-direction: column ;
 }
 .relevant-skills {
 
