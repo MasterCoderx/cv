@@ -47,6 +47,37 @@ body {
     display: flex;
     flex-direction: column ;
 }
+.phone {
+    display: flex;;
+}
+.address {
+    display: flex;
+}
+.email {
+    display: flex;
+}
+.linkedin {
+    display: flex;
+}
+p.phone-text {
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+}
+p.address-text {
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+}
+p.email-text {
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+}
+.icon {
+    max-height: 26px;
+    margin-left: 20px;
+}
 .relevant-skills {
 
 }
