@@ -12,12 +12,14 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    border-bottom: 2px solid;
 }
 .header-left {
     width: 30%;
 }
 .photo{
     width: 30%;
+    border-radius: 10px 10px 10px 10px;
 }
 .name-position {
     margin-bottom: 10px;
@@ -26,7 +28,6 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
 }
 .name {
     text-transform: uppercase;
@@ -42,10 +43,12 @@ body {
     display: flex;
     flex-direction: row ;
     justify-content: flex-end;
+    border-right: 2px solid
 }
 .contact-details {
     display: flex;
     flex-direction: column ;
+    margin-top: 20px;
 }
 .phone {
     display: flex;;
@@ -62,21 +65,21 @@ body {
 p.phone-text {
     display: flex;
     flex-direction: row;
-    margin-left: 20px;
+    margin-left: 40px;
 }
 p.address-text {
     display: flex;
     flex-direction: row;
-    margin-left: 20px;
+    margin-left: 40px;
 }
 p.email-text {
     display: flex;
     flex-direction: row;
-    margin-left: 20px;
+    margin-left: 40px;
 }
 .icon {
     max-height: 26px;
-    margin-left: 20px;
+    margin-left: 40px;
 }
 .relevant-skills {
 
