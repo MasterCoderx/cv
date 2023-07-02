@@ -21,6 +21,9 @@ body {
     width: 30%;
     border-radius: 10px 10px 10px 10px;
 }
+img.profile {
+    border-radius: 10px;
+}
 .name-position {
     margin-bottom: 10px;
     width: 30%;
