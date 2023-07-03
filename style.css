@@ -43,9 +43,6 @@ img.profile {
 }
 .sidebar {
     width: 30%;
-    display: flex;
-    flex-direction: row ;
-    justify-content: flex-end;
     border-right: 2px solid
 }
 .contact-details {
@@ -53,17 +50,37 @@ img.profile {
     flex-direction: column ;
     margin-top: 20px;
 }
+.contact-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: bolder;
+}
 .phone {
-    display: flex;;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-right: 20px;
 }
 .address {
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 20px;
 }
 .email {
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 20px;
 }
 .linkedin {
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 20px;
 }
 p.phone-text {
     display: flex;
