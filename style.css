@@ -53,7 +53,7 @@ img.profile {
 }
 .sidebar {
     width: 34%;
-    border-right: 2px solid
+    border-right: 2px solid;
 }
 .contact-details {
     display: flex;
@@ -63,7 +63,8 @@ img.profile {
 .contact-title {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-end;
+    margin-right: 20px;
     font-size: 30px;
     font-weight: bolder;
 }
@@ -121,10 +122,11 @@ p.email-text {
 .relevant-skills-title {
     display: flex;
     flex-direction: row;
-    justify-content: center;
     font-size: 30px;
     font-weight: bolder;
     margin-top: 20px;
+    justify-content: flex-end;
+    margin-right: 20px;
 }
 .first-relevant-skill {
     margin-top: 20px;
@@ -142,7 +144,8 @@ p.email-text {
 .additional-achievements-title {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-end;
+    margin-right: 20px;
     font-size: 30px;
     font-weight: bolder;
     margin-top: 20px;
@@ -163,7 +166,8 @@ p.email-text {
 .references-title {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-end;
+    margin-right: 20px;
     font-size: 30px;
     font-weight: bolder;
     margin-top: 20px;
