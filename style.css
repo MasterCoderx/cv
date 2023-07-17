@@ -31,14 +31,12 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    padding: 20px 0 20px 0;
 }
 img.profile {
     border-radius: 10px;
 }
 .name-position {
-    margin-bottom: 10px;
     width: 30%;
     display: flex;
     flex-direction: column;
@@ -200,8 +198,7 @@ p.email-text {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    margin-left: 20px;
-    margin-right: 20px;
+    padding: 20px;
 }
 .professional-profile {
     display: flex;
@@ -213,16 +210,11 @@ p.email-text {
     justify-content: center;
     font-size: 30px;
     font-weight: bolder;
-    margin-top: 20px;
 }
 .professional-profile-text {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    margin-right: 20px;
     line-height: 25px;
-    margin-top: 20px;
     text-align: justify;
+    padding-top: 20px
 }
 .experience {
     display: flex;
@@ -234,17 +226,15 @@ p.email-text {
     justify-content: center;
     font-size: 30px;
     font-weight: bolder;
-    margin-top: 44px;
+    padding-top: 25px;
 }
 .experience-title2 {
-    margin-top: 20px;
     font-size: 18px;
     font-weight: bold;
-    margin-bottom: 10px;
+    padding: 20px 0 10px 0;
 }
 .experience-title3 {
-    margin-top: 20px;
-    margin-bottom: 10px;
+    padding: 20px 0 10px 0;
     font-size: 18px;
 }
 .experience-text {
@@ -260,20 +250,17 @@ p.email-text {
     justify-content: center;
     font-size: 30px;
     font-weight: bolder;
-    margin-top: 20px;
+    padding-top: 20px;
 }
 .education-text {
     line-height: 25px;
     text-align: justify;
-    margin-bottom: 20px;
 }
 .university {
-    margin-top: 20px;
-    margin-bottom: 10px;
+    padding: 20px 0 10px 0;
     font-size: 18px;
 }
 .school {
-    margin-top: 20px;
-    margin-bottom: 10px;
+    padding: 20px 0 10px 0;
     font-size: 18px;
 }
