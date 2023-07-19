@@ -264,3 +264,10 @@ p.email-text {
     padding: 20px 0 10px 0;
     font-size: 18px;
 }
+
+@media (min-width: 992px) {
+    .columns-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
