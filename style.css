@@ -57,6 +57,7 @@ img.profile {
     width: 34%;
     border-right: 2px solid;
     padding: 20px;
+    max-width: 370px;
 }
 .contact-details {
     display: flex;
@@ -265,9 +266,21 @@ p.email-text {
     font-size: 18px;
 }
 
-@media (min-width: 992px) {
+@media (max-width: 992px) {
     .columns-wrapper {
-        display: flex;
-        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .header {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .name {
+        text-align: center;
+    }
+    .sidebar {
+        width: 100%;
+    }
+    .main-column {
+        width: 100%;
     }
 }
